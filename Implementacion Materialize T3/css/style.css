@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+
+body
+{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main
+{
+	flex. 1 0 auto;
+}
+.logo
+{
+	width: 170px;
+	height: 110px;
+	margin-top: -24px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 900px)
+{
+	#img
+	{
+		width: 800px;
+	}
+}
+@media only screen and (min-width: 700px) and (max-width: 800px)
+{
+	#img
+	{
+		width: 700px;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 700px)
+{
+	#img
+	{
+		width: 600px;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 600px)
+{
+	#img
+	{
+		width: 500px;
+	}
+}
+h1
+{
+	font-family: 'Patua One', cursive;
+	font-size: 45px;
+}
+h2
+{
+	font-size: 70px;
+	color: gold;
+}
+.cues
+{
+	margin-top: 68px;
+}
+.color
+{
+	background: forestgreen;
+}
+.verde
+{
+	background: powderblue;
+}
+.txt
+{
+	transform: translateY(40px);
+}
+.carousel .carousel-item
+{
+	width: 500px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+a:hover
+{
+	color: greenyellow;
+	text-decoration: none;
+}
+.active
+{
+	background: lightblue;
+	color:black;
+}
+
+
+
+
